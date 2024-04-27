@@ -1,17 +1,27 @@
 .about_section {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    margin-right: 0em;
+    margin-left: 0em;
 }
 
-.about_p {
+.about_div {
     display: grid;
-    grid-column-start: 3;
-    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-row-end: 1;
 }
 
-.about_h2_h3 {
-    display: grid;
-    grid-column-start: 3;
-    grid-row-end: 2;
+.figure_about {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 3em;
+}
+
+.photo-cv {
+    width: 50em;
+    height: auto;
+    justify-items: flex-end;
 }
