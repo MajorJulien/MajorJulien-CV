@@ -11,6 +11,7 @@
 h1 {
   font-size: 4em;
   font-weight: bold;
+  color: white;
 }
 
 h2 {
@@ -33,8 +34,24 @@ p {
   font-weight: normal;
 }
 
+a {
+  color: white;
+  font-size: 1.5em;
+  margin: 1em;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #626262;
+  font-size: 2em;
+}
+
+body {
+  background-color: #F8F8F8;
+}
+
 header {
-  background-color: black;
+  background-color: #94C5CC;
 }
 
 /*# sourceMappingURL=style.css.map */
