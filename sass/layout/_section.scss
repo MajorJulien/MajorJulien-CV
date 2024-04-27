@@ -4,7 +4,13 @@
     grid-template-rows: 1fr 1fr;
 }
 
-.about_div {
+.about_p {
+    display: grid;
+    grid-column-start: 3;
+    grid-row-end: 3;
+}
+
+.about_h2_h3 {
     display: grid;
     grid-column-start: 3;
     grid-row-end: 2;
