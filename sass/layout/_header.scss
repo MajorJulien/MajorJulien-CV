@@ -1,0 +1,14 @@
+header {
+    position: fixed;
+    overflow: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8em;
+}
+
+.figure-logo {
+    float: left;
+    margin-left: 3em;
+}

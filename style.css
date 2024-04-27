@@ -48,11 +48,30 @@ a:hover {
 
 body {
   background-color: #F8F8F8;
+  margin-bottom: 30em;
 }
 
 header {
   background-color: #94C5CC;
-  height: 10em;
+}
+
+header {
+  position: fixed;
+  overflow: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 8em;
+}
+
+.figure-logo {
+  float: left;
+  margin-left: 3em;
+}
+
+nav {
+  margin-right: 3em;
 }
 
 /*# sourceMappingURL=style.css.map */
