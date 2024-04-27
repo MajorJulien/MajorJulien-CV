@@ -43,7 +43,6 @@ a {
 
 a:hover {
   color: #626262;
-  font-size: 2em;
 }
 
 body {
@@ -62,10 +61,22 @@ header {
   border-width: 0;
   border-radius: 10px;
   border-style: solid;
-  padding: 5px 15px;
-  font-size: 1.7rem;
+  padding: 5px 10px;
+  font-size: 1.5rem;
   height: min-content;
   text-decoration: none;
+}
+
+.logo {
+  color: white;
+}
+
+.logo:hover {
+  color: #626262;
+}
+
+main {
+  margin-top: 20em;
 }
 
 header {
