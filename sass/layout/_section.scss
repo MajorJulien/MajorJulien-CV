@@ -1,16 +1,8 @@
-.about_section {
+.section_about {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     justify-content: center;
-    margin-right: 0em;
-    margin-left: 0em;
-}
-
-.about_div {
-    display: grid;
-    grid-column-start: 2;
-    grid-row-end: 1;
 }
 
 .figure_about {
@@ -20,8 +12,34 @@
     margin-right: 3em;
 }
 
+.div_about {
+    margin-right: 80em;
+}
+
 .photo-cv {
     width: 50em;
-    height: auto;
+    justify-items: flex-end;
+}
+
+.section_formation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+}
+
+.figure_formation {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 3em;
+}
+
+.div_formation {
+    margin-right: 80em;
+}
+
+.logo_formation {
+    width: 50em;
     justify-items: flex-end;
 }
