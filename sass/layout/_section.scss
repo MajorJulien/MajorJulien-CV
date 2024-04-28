@@ -42,6 +42,9 @@
 
 .div_formation {
     margin-right: 80em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .logo_formation {
@@ -70,6 +73,9 @@
 
 .div_experience {
     margin-right: 80em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .logo_experience {
