@@ -17,6 +17,10 @@
 @mixin div-model {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 50%;
+    margin-right: 3em;
+}
+
+@mixin logo-model {
+    display: flex;
+    flex-direction: column;
 }

@@ -8,6 +8,7 @@
 
 .div_about {
     @include div-model;
+    width: 50%;
 }
 
 .section_formation {
@@ -16,7 +17,7 @@
 
 .div_formation {
     @include div-model;
-
+    align-items: flex-end;
 }
 
 .section_experience {
@@ -25,4 +26,8 @@
 
 .div_experience {
     @include div-model;
+}
+
+.div_logo {
+    @include logo-model;
 }

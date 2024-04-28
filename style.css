@@ -132,7 +132,7 @@ nav {
 .div_about {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  margin-right: 3em;
   width: 50%;
 }
 
@@ -148,8 +148,8 @@ nav {
 .div_formation {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 50%;
+  margin-right: 3em;
+  align-items: flex-end;
 }
 
 .section_experience {
@@ -164,8 +164,12 @@ nav {
 .div_experience {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 50%;
+  margin-right: 3em;
+}
+
+.div_logo {
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */
