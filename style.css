@@ -52,7 +52,7 @@ header {
 }
 
 main {
-  margin-top: 20em;
+  margin-top: 10em;
 }
 
 .cv-button {
@@ -83,14 +83,11 @@ main {
 }
 
 .logo_formation {
-  width: 100%;
-  top: 0;
-  right: 0;
+  font-size: 5em;
 }
 
 .photo-cv {
   width: 50em;
-  justify-items: flex-end;
 }
 
 header {
@@ -101,6 +98,7 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 8em;
+  z-index: 1;
 }
 
 .figure-logo {
@@ -122,7 +120,8 @@ nav {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   position: relative;
-  justify-items: flex-end;
+  justify-items: stretch;
+  margin-top: 10em;
 }
 
 .figure_about {
@@ -133,10 +132,10 @@ nav {
 }
 
 .div_about {
-  margin-right: 80em;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 50%;
 }
 
 .section_formation {
@@ -144,7 +143,8 @@ nav {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   position: relative;
-  justify-items: flex-end;
+  justify-items: stretch;
+  margin-top: 10em;
 }
 
 .figure_formation {
@@ -155,10 +155,10 @@ nav {
 }
 
 .div_formation {
-  margin-right: 80em;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 50%;
 }
 
 .section_experience {
@@ -166,7 +166,8 @@ nav {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   position: relative;
-  justify-items: flex-end;
+  justify-items: stretch;
+  margin-top: 10em;
 }
 
 .figure_experience {
@@ -177,10 +178,10 @@ nav {
 }
 
 .div_experience {
-  margin-right: 80em;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

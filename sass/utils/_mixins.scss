@@ -3,7 +3,8 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     position: relative;
-    justify-items: flex-end;
+    justify-items: stretch;
+    margin-top: 10em;
 }
 
 @mixin figure-model {
@@ -14,8 +15,8 @@
 }
 
 @mixin div-model {
-    margin-right: 80em;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 50%;
 }
