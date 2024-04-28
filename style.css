@@ -177,7 +177,7 @@ nav {
 
 .section_skills {
   display: grid;
-  grid-template-columns: 1fr 5em 1fr;
+  grid-template-columns: 1fr 8em 1fr;
   grid-template-rows: 1fr;
   position: relative;
   justify-items: stretch;
@@ -194,7 +194,6 @@ nav {
 .div_soft_skills {
   display: flex;
   flex-direction: column;
-  margin-left: 5em;
 }
 
 .div_logo_skills {
