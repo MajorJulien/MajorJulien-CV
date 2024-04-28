@@ -3,7 +3,7 @@
   margin: 0;
   font-size: 10px;
   font-family: "Roboto";
-  color: black;
+  color: #000100;
 }
 
 h1, h2, h3, h4, p, a, li {
@@ -76,16 +76,14 @@ main {
   color: #626262;
 }
 
-.logo_formation {
-  font-size: 5em;
-}
-
-.logo_experience {
-  font-size: 5em;
-}
-
 .photo-cv {
   width: 50em;
+  border-radius: 10%;
+}
+
+.logo_formation, .logo_experience {
+  font-size: 5em;
+  color: #B4D2E7;
 }
 
 header {
