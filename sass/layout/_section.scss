@@ -39,30 +39,26 @@
     margin-right: 3em;
 }
 
-.section_hard-skills {
-    @include section-model;
+.section_skills {
+    display: grid;
+    grid-template-columns: 1fr 5em 1fr;
+    grid-template-rows: 1fr;
+    position: relative;
+    justify-items: stretch;
+    margin-top: 10em;
 }
 
-.div_hard-skills {
+.div_hard_skills {
     @include div-model;
     align-items: flex-end;
     margin-right: 3em;
 }
 
-.div_logo_hard-skills {
-    @include logo-model;
-}
-
-.section_soft-skills {
-    @include section-model;
-}
-
-.div_soft-skills {
+.div_soft_skills {
     @include div-model;
+    margin-left: 5em;
 }
 
-.div_logo_soft-skills {
+.div_logo_skills {
     @include logo-model;
-    align-items: flex-end;
-    margin-right: 3em;
 }

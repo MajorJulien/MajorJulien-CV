@@ -81,7 +81,7 @@ main {
   border-radius: 10%;
 }
 
-.logo_formation, .logo_experience {
+.logo_formation, .logo_experience, .logo_skills {
   font-size: 5em;
   color: #B4D2E7;
 }
@@ -175,46 +175,31 @@ nav {
   margin-right: 3em;
 }
 
-.section_hard-skills {
+.section_skills {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 5em 1fr;
   grid-template-rows: 1fr;
   position: relative;
   justify-items: stretch;
   margin-top: 10em;
 }
 
-.div_hard-skills {
+.div_hard_skills {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   margin-right: 3em;
 }
 
-.div_logo_hard-skills {
+.div_soft_skills {
   display: flex;
   flex-direction: column;
+  margin-left: 5em;
 }
 
-.section_soft-skills {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  position: relative;
-  justify-items: stretch;
-  margin-top: 10em;
-}
-
-.div_soft-skills {
+.div_logo_skills {
   display: flex;
   flex-direction: column;
-}
-
-.div_logo_soft-skills {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  margin-right: 3em;
 }
 
 /*# sourceMappingURL=style.css.map */
