@@ -38,3 +38,31 @@
     align-items: flex-end;
     margin-right: 3em;
 }
+
+.section_hard-skills {
+    @include section-model;
+}
+
+.div_hard-skills {
+    @include div-model;
+    align-items: flex-end;
+    margin-right: 3em;
+}
+
+.div_logo_hard-skills {
+    @include logo-model;
+}
+
+.section_soft-skills {
+    @include section-model;
+}
+
+.div_soft-skills {
+    @include div-model;
+}
+
+.div_logo_soft-skills {
+    @include logo-model;
+    align-items: flex-end;
+    margin-right: 3em;
+}
