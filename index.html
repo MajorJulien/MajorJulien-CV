@@ -18,21 +18,26 @@
              alt="_header-logo_">
       </figure>
       <nav>
-        <a class="nav-link" href="">À propos</a>
-        <a class="nav-link" href="">Diplômes</a>
-        <a class="nav-link" href="">Expériences</a>
-        <a class="nav-link" href="">Compétences</a>
-        <a class="nav-link" href="">Projets</a>
-        <a class="nav-link" href="">Contact</a>
+        <a class="nav-link" href="#top">À propos</a>
+        <a class="nav-link" href="#Diplômes">Diplômes</a>
+        <a class=" nav-link" href="#Expériences">Expériences</a>
+        <a class="nav-link" href="#Compétences">Compétences</a>
+        <a class="nav-link" href="#Projets">Projets</a>
+        <a class="nav-link" href="#Contact">Contact</a>
+        <a href="https://www.linkedin.com/in/julien-salome/" target="_blank"
+           class="in_button"><i
+             class="fa-brands fa-linkedin fa-2xl logo"></i></a>
+        <a href="https://github.com/MajorJulien" target="_blank"
+           class="git-hub_button"><i class="fa-brands fa-github fa-2xl logo"
+             aria-hidden="true"></i></a>
         <a href="" target="_blank" class="cv-button">
-          <i class="icon fa-solid fa-download fa-lg" aria-hidden="true"
-             style="color:#94C5CC"></i> CV</a><a href="" target="_blank"
-           class=""><i class="fa-brands fa-github fa-2xl logo"
-             aria-hidden="true"></i>
+          <i class="icon fa-solid fa-download fa-lg cv-button"
+             aria-hidden="true"></i>CV </a>
       </nav>
     </header>
     <main>
-      <section class="section_about">
+      <section id="top" class="section_about">
+        <!-- Contenu de la section "À propos" -->
         <figure class="figure_about">
           <img class="photo-cv" src="/ressources/photo-cv.png" alt="photo-cv">
         </figure>
@@ -46,22 +51,23 @@
             d'applications web) en alternance commençant en septembre 2024. </p>
         </div>
       </section>
-      <section class="section_formation">
+      <section id="Diplômes" class="section_formation">
+        <!-- Contenu de la section "Formations" -->
         <div class="div_formation">
           <h2>Diplômes & Formations</h2>
           <h3>(2024) Développeur Front-End</h3>
           <h4>Simplon (en cours de formation)</h4>
           <h3>(2024) Développeur Intégrateur d'applications Web</h3>
           <h4>Simplon</h4>
-          <h4>Lycée François Albert</h4>
           <h3>(2013) Bac Pro Electrotechnique</h3>
-          <h4>Simplon</h4>
+          <h4>Lycée François Albert</h4>
         </div>
         <div class="div_logo_formation"><i
              class="fa-solid fa-graduation-cap logo_formation"></i>
         </div>
       </section>
-      <section class="section_experience">
+      <section id="Expériences" class="section_experience">
+        <!-- Contenu de la section "Expériences" -->
         <div class="div_logo_experience"><i
              class="fa-solid fa-suitcase logo_experience"></i>
         </div>
@@ -82,7 +88,8 @@
           </ul>
         </div>
       </section>
-      <section class="section_skills">
+      <section id="Compétences" class="section_skills">
+        <!-- Contenu de la section "Compétences" -->
         <div class="div_hard_skills">
           <h2>Compétences Techniques</h2>
           <ul class="ul_skills">
@@ -117,14 +124,18 @@
           </ul>
         </div>
       </section>
-      <section class="section_projects">
+      <section id="Projets" class="section_projects">
+        <!-- Contenu de la section "Projets" -->
         <div class="div_logo_projects"><i
              class="fa-solid fa-pencil logo_projects"></i>
-          <h3 class="h3-margin">Projets</h3>
+          <h2 class="h2-margin">Projets</h2>
         </div>
         <div class="div_project">
-          <figure class="figure_project"><img class="logo_elden_ring"
-                 src="/ressources/elden ring.png" alt="elden-ring_logo">
+          <figure href="https://majorjulien.github.io/EldenRing.github.io/"
+                  class="figure_project"><a
+               href="https://majorjulien.github.io/EldenRing.github.io/"><img
+                   class="logo_elden_ring" src="/ressources/elden ring.png"
+                   alt="elden-ring_logo"></a>
           </figure>
           <p>Présentation d'un jeu-vidéo sous forme de site web</p>
           <figure class="figure_project"><img class="logo_barber_shop"
@@ -133,45 +144,48 @@
           <p>Crée en collaboration avec d'autres apprenants pour un brief</p>
         </div>
       </section>
-      <section>
+      <section id="Contact">
+        <!-- Contenu de la section "Contact" -->
         <div class="div_contact"><i
              class="fa-solid fa-envelope logo_contact"></i>
-          <h3 class="h3-margin">Contact</h3>
+          <h2 class="h2-margin">Contact</h2>
         </div>
-        <form>
-          <div class="form-group">
-            <label for="nom"><i class="fa fa-user"></i>Nom :</label>
-            <input type="text" id="nom" name="nom" required>
-          </div>
-          <div class="form-group">
-            <label for="prenom"><i class="fa fa-user"></i>Prénom :</label>
-            <input type="text" id="prenom" name="prenom" required>
-          </div>
-          <div class="form-group">
-            <label for="email"><i class="fa fa-envelope"></i>Adresse e-mail
-              :</label>
-            <input type="email" id="email" name="email" required>
-          </div>
-          <div class="form-group">
-            <label for="message"><i class="fa fa-comment"></i>Message :</label>
-            <textarea id="message" name="message" required></textarea>
-          </div>
-          <div class="form-group">
-            <button type="submit"><i
-                 class="fa fa-paper-plane"></i>Envoyer</button>
-          </div>
-        </form>
       </section>
+      <form>
+        <div class="form-group">
+          <label for="nom"><i class="fa fa-user"></i>Nom :</label>
+          <input type="text" id="nom" name="nom" required>
+        </div>
+        <div class="form-group">
+          <label for="prenom"><i class="fa fa-user"></i>Prénom :</label>
+          <input type="text" id="prenom" name="prenom" required>
+        </div>
+        <div class="form-group">
+          <label for="email"><i class="fa fa-envelope"></i>Adresse e-mail
+            :</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message"><i class="fa fa-comment"></i>Message :</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit"><i
+               class="fa fa-paper-plane"></i>Envoyer</button>
+        </div>
+      </form>
     </main>
     <footer>
-      <div>
-        <a href="" class=""></a><img src="" alt="">
-      </div>
-      <div>
-        <h3></h3><a href="" class=""></a><img src="" alt=""><a href=""
-           class=""></a><img src="" alt=""><a href="" class=""></a><img src=""
-             alt="">
-      </div>
+      <a href="https://www.linkedin.com/in/julien-salome/" target="_blank"
+         class="in_button"><i
+           class="fa-brands fa-linkedin fa-2xl logo-footer"></i></a>
+      <a href="#top" target="_blank" class="go-top">
+        <i class="fas fa-chevron-up logo fa-2xl logo-footer"
+           aria-hidden="true"></i></a>
+      <a href="https://github.com/MajorJulien" target="_blank"
+         class="git-hub_button"><i
+           class="fa-brands fa-github fa-2xl logo-footer"
+           aria-hidden="true"></i></a>
     </footer>
   </body>
 </html>

@@ -1,5 +1,7 @@
 .section_about {
     @include section-model;
+    margin-bottom: 10em;
+    margin-top: 15em;
 }
 
 .figure_about {
@@ -13,6 +15,7 @@
 
 .section_formation {
     @include section-model;
+    margin-bottom: 10em;
 }
 
 .div_formation {
@@ -46,6 +49,7 @@
     position: relative;
     justify-items: stretch;
     margin-top: 10em;
+    margin-bottom: 10em;
 }
 
 .div_hard_skills {
@@ -91,6 +95,7 @@
     align-items: center;
     margin-left: 15em;
     margin-top: 5em;
+    margin-bottom: 10em;
 }
 
 .div_contact {

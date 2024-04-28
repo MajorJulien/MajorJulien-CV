@@ -1,11 +1,11 @@
 .cv-button {
-    color: #94C5CC;
-    background-color: white;
+    color: white;
+    background-color: #626262;
     font-weight: 700;
     border-width: 0;
     border-radius: 10px;
     border-style: solid;
-    padding: 5px 10px;
+    padding: 0.5em 0.5em;
     font-size: 1.5rem;
     height: min-content;
     text-decoration: none;
@@ -17,4 +17,17 @@
 
 .logo:hover {
     color: #626262;
+}
+
+.logo-footer {
+    color: white;
+}
+
+.logo-footer:hover {
+    color: #94C5CC;
+}
+
+.cv-button:hover {
+    color: #94C5CC;
+    background-color: #626262;
 }
