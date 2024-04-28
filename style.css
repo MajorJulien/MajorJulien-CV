@@ -27,7 +27,7 @@ h3 {
   margin: 0;
 }
 
-.h3-project {
+.h3-margin {
   margin-left: 1em;
 }
 
@@ -89,7 +89,7 @@ main {
   color: #626262;
 }
 
-.logo_formation, .logo_experience, .logo_skills, .logo_projects {
+.logo_formation, .logo_experience, .logo_skills, .logo_projects, .logo_contact {
   font-size: 5em;
   color: #B4D2E7;
 }
@@ -220,7 +220,7 @@ nav {
   flex-direction: column;
 }
 
-.div_logo_projects {
+.div_logo_projects, .div_logo_contact {
   display: flex;
   flex-direction: column;
   display: flex;
@@ -247,6 +247,15 @@ nav {
   align-items: center;
   margin-left: 15em;
   margin-top: 5em;
+}
+
+.div_contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+  margin-left: 5em;
 }
 
 /*# sourceMappingURL=style.css.map */
