@@ -12,3 +12,24 @@
     width: 20em;
     border-radius: 10%;
 }
+
+.link-with-elden-ring {
+    border-radius: 10%;
+    display: inline-block;
+    background-image: url('/ressources/elden\ ring.png');
+    background-size: cover;
+    background-position: center;
+    width: 10em;
+    height: 10em;
+    text-indent: -9999px;
+}
+
+.link-with-barber-shop {
+    display: inline-block;
+    background-image: url('/ressources/barber_shop.png');
+    background-size: cover;
+    background-position: center;
+    width: 10em;
+    height: 10em;
+    text-indent: -9999px;
+}
