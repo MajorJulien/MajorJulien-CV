@@ -1,0 +1,21 @@
+@mixin section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    position: relative;
+    justify-items: flex-end;
+}
+
+@mixin figure {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 3em;
+}
+
+@mixin div {
+    margin-right: 80em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
