@@ -62,3 +62,17 @@
 .div_logo_skills {
     @include logo-model;
 }
+
+.div_logo_projects {
+    @include logo-model;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+    margin-left: 5em;
+}
+
+.section_projects {
+    position: relative;
+}

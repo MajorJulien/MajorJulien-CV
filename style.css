@@ -24,6 +24,11 @@ h2 {
 h3 {
   font-size: 2em;
   font-weight: bold;
+  margin: 0;
+}
+
+.h3-project {
+  margin-left: 1em;
 }
 
 h4, p, a, li {
@@ -89,7 +94,7 @@ main {
   border-radius: 10%;
 }
 
-.logo_formation, .logo_experience, .logo_skills {
+.logo_formation, .logo_experience, .logo_skills, .logo_projects {
   font-size: 5em;
   color: #B4D2E7;
 }
@@ -208,6 +213,21 @@ nav {
 .div_logo_skills {
   display: flex;
   flex-direction: column;
+}
+
+.div_logo_projects {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10em;
+  margin-left: 5em;
+}
+
+.section_projects {
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */
