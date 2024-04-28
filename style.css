@@ -3,6 +3,7 @@
   margin: 0;
   font-size: 10px;
   font-family: "Roboto";
+  color: black;
 }
 
 h1, h2, h3, h4, p, a, li {
@@ -39,10 +40,6 @@ a {
   color: white;
   margin: 1em;
   text-decoration: none;
-}
-
-a:hover {
-  color: #626262;
 }
 
 body {
@@ -113,6 +110,11 @@ header {
 
 nav {
   margin-right: 3em;
+  color: #626262;
+}
+
+.nav-link:hover {
+  color: #626262;
 }
 
 .section_about {
