@@ -18,6 +18,11 @@
 .div_formation {
     @include div-model;
     align-items: flex-end;
+    margin-right: 3em;
+}
+
+.div_logo_formations {
+    @include logo-model;
 }
 
 .section_experience {
@@ -28,6 +33,8 @@
     @include div-model;
 }
 
-.div_logo {
+.div_logo_experience {
     @include logo-model;
+    align-items: flex-end;
+    margin-right: 3em;
 }
