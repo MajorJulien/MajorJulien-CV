@@ -76,13 +76,11 @@ main {
   color: #626262;
 }
 
-.logo_experience {
-  width: 100%;
-  top: 0;
-  right: 0;
+.logo_formation {
+  font-size: 5em;
 }
 
-.logo_formation {
+.logo_experience {
   font-size: 5em;
 }
 
@@ -147,13 +145,6 @@ nav {
   margin-top: 10em;
 }
 
-.figure_formation {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-right: 3em;
-}
-
 .div_formation {
   display: flex;
   flex-direction: column;
@@ -168,13 +159,6 @@ nav {
   position: relative;
   justify-items: stretch;
   margin-top: 10em;
-}
-
-.figure_experience {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-right: 3em;
 }
 
 .div_experience {

@@ -14,10 +14,6 @@
     @include section-model;
 }
 
-.figure_formation {
-    @include figure-model;
-}
-
 .div_formation {
     @include div-model;
 
@@ -25,10 +21,6 @@
 
 .section_experience {
     @include section-model;
-}
-
-.figure_experience {
-    @include figure-model;
 }
 
 .div_experience {
