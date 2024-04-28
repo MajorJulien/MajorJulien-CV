@@ -1,53 +1,36 @@
 .section_about {
-    @include section;
+    @include section-model;
 }
 
 .figure_about {
-    @include figure;
+    @include figure-model;
 }
 
 .div_about {
-    @include div;
-}
-
-.photo-cv {
-    width: 50em;
-    justify-items: flex-end;
+    @include div-model;
 }
 
 .section_formation {
-    @include section;
+    @include section-model;
 }
 
 .figure_formation {
-    @include figure;
+    @include figure-model;
 }
 
 .div_formation {
-    @include div;
+    @include div-model;
 
-}
-
-.logo_formation {
-    width: 100%;
-    top: 0;
-    right: 0;
 }
 
 .section_experience {
-    @include section;
+    @include section-model;
 }
 
 .figure_experience {
-    @include figure;
+    @include figure-model;
 }
 
 .div_experience {
-    @include div;
-}
-
-.logo_experience {
-    width: 100%;
-    top: 0;
-    right: 0;
+    @include div-model;
 }
