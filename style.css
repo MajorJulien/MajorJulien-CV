@@ -55,6 +55,12 @@ main {
   margin-top: 10em;
 }
 
+.ul_skills {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 .cv-button {
   color: #94C5CC;
   background-color: white;
@@ -130,7 +136,7 @@ nav {
 .div_about {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 50em;
 }
 
 .section_formation {
@@ -194,6 +200,7 @@ nav {
 .div_soft_skills {
   display: flex;
   flex-direction: column;
+  width: 50em;
 }
 
 .div_logo_skills {
