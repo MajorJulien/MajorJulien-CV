@@ -1,0 +1,35 @@
+.logo_formation, .logo_experience, .logo_skills, .logo_projects, .logo_contact {
+    font-size: 5em;
+    color: #B4D2E7;
+}
+
+.photo-cv {
+    width: 50em;
+    border-radius: 10%;
+}
+
+.logo_elden_ring, .logo_barber_shop {
+    width: 20em;
+    border-radius: 10%;
+}
+
+.link-with-elden-ring {
+    border-radius: 10%;
+    display: inline-block;
+    background-image: url('../ressources/elden_ring.png');
+    background-size: cover;
+    background-position: center;
+    width: 10em;
+    height: 10em;
+    text-indent: -9999px;
+}
+
+.link-with-barber-shop {
+    display: inline-block;
+    background-image: url('../ressources/barber_shop.png');
+    background-size: cover;
+    background-position: center;
+    width: 10em;
+    height: 10em;
+    text-indent: -9999px;
+}
