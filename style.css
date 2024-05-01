@@ -6,19 +6,26 @@
   color: #000100;
 }
 
+body {
+  background-color: #F8F8F8;
+}
+
+header {
+  background-color: #94C5CC;
+}
+
+main {
+  margin-top: 10em;
+}
+
 h1, h2, h3, h4, p, a, li {
   margin-bottom: 0.5em;
 }
 
-h1 {
+h2 {
   font-size: 4em;
   font-weight: bold;
-  color: white;
-}
-
-h2 {
-  font-size: 3em;
-  font-weight: bold;
+  color: black;
 }
 
 h3 {
@@ -32,7 +39,7 @@ h3 {
   margin-left: 1em;
 }
 
-h4, p, a, li {
+h4, p, li {
   font-size: 1.5em;
   font-weight: normal;
   line-height: 2em;
@@ -52,18 +59,8 @@ a {
   margin: 1em;
   text-decoration: none;
   font-weight: bold;
-}
-
-body {
-  background-color: #F8F8F8;
-}
-
-header {
-  background-color: #94C5CC;
-}
-
-main {
-  margin-top: 10em;
+  font-size: 2em;
+  line-height: 2em;
 }
 
 .ul_skills {
@@ -81,7 +78,7 @@ main {
   border-radius: 10px;
   border-style: solid;
   padding: 0.5em 0.5em;
-  font-size: 1.5rem;
+  font-size: 2rem;
   height: min-content;
   text-decoration: none;
 }
@@ -145,12 +142,12 @@ main {
 
 footer {
   background-color: #626262;
-  padding: 50px;
   width: 100%;
   bottom: 0;
   display: flex;
   justify-content: center;
   margin-top: 10em;
+  height: 8em;
 }
 
 .footer-button {
